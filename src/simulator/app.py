@@ -188,8 +188,8 @@ class SimulatorApp:
         while True:
             try:
                 # Get latest order book data from WebSocket client
-                if hasattr(self.websocket_client, 'get_order_book'):
-                    self.order_book = self.websocket_client.get_order_book()
+                if hasattr(self.websocket_client, 'get_current_order_book'):
+                    self.order_book = self.websocket_client.get_current_order_book()
                     self.last_update_time = time.time()
                     self.update_order_book_display()
                 
