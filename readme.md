@@ -1,9 +1,5 @@
-Here's a detailed `README.md` file for your **Cryptocurrency Trade Simulator** project, explaining everything that's been implemented across all phases:
 
----
-
-````markdown
-# 🪙 Cryptocurrency Trade Simulator
+# Cryptocurrency Trade Simulator
 
 A comprehensive Python-based trading simulator that mimics real-world cryptocurrency markets using real-time Level-2 (L2) order book data. This project provides a robust framework for simulating and backtesting trading strategies with realistic execution, slippage, market impact, and fee modeling.
 
@@ -156,10 +152,3 @@ python app.py
 ## 🏁 Final Note
 
 This simulator is designed for educational and research purposes and is an excellent base for further development in algorithmic trading, market microstructure modeling, and AI-based trading strategy research.
-
-```
-
----
-
-Let me know if you’d like a version tailored for GitHub (with badges, live demo link placeholders, etc.) or if you want this broken into separate documents (like CONTRIBUTING.md, etc.).
-```
